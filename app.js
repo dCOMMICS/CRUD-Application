@@ -17,6 +17,9 @@ dotenv.config({path:'./config/config.env'});
 const passport = require('passport');
 require('./config/passport')(passport);
 
+return
+
+
 //DB Connection
 connectDB();
 
